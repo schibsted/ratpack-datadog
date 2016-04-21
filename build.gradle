@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        ratpackVersion = '1.2.0-rc-2'
+        ratpackVersion = '1.2.0'
     }
 
     repositories {
@@ -30,7 +30,7 @@ repositories {
 dependencies {
 
     ext {
-        metricsDataDogVersion = '1.1.3'
+        metricsDataDogVersion = '1.1.4'
     }
 
     compile ratpack.dependency("guice")
