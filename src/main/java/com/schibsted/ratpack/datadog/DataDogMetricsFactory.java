@@ -16,7 +16,7 @@ public class DataDogMetricsFactory {
     }
 
     public Module buildModule() {
-        if (enabled) {
+        if (enabled != null && enabled) {
             return new DataDogMetricsModule();
         }
         return Modules.EMPTY_MODULE;
